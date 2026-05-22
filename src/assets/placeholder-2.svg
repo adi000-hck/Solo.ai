@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#071026" />
+      <stop offset="100%" stop-color="#040718" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g2)" />
+  <g fill="#7C5CFF" opacity="0.14">
+    <polygon points="0,400 300,200 600,420 900,180 1200,420 1200,800 0,800" />
+  </g>
+  <text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle" fill="#9aa6b2" font-family="Inter, Arial, sans-serif" font-size="34">AI Project Placeholder</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b1222" />
+      <stop offset="100%" stop-color="#071026" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g1)" />
+  <g fill="#7C5CFF" opacity="0.12">
+    <circle cx="200" cy="120" r="140" />
+    <circle cx="980" cy="640" r="220" />
+  </g>
+  <g fill="#00E5FF" opacity="0.06">
+    <rect x="60" y="520" width="320" height="200" rx="18" />
+    <rect x="800" y="80" width="340" height="140" rx="18" />
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#9aa6b2" font-family="Inter, Arial, sans-serif" font-size="36">Project Image Placeholder</text>
+</svg>

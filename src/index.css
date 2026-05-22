@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg:'#0b1020'; }
+html { scroll-behavior: smooth; }
+body { @apply bg-[#04060a] text-gray-200 antialiased font-sans; }
+
+/* Glow utilities */
+.glow { box-shadow: 0 0 30px rgba(124,92,255,0.18); }
+.glow-accent { box-shadow: 0 0 40px rgba(0,229,255,0.06); }
+
+/* Glass card */
+.card-glass {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(8px);
+}
+
+/* Smooth entrance */
+.fade-up { transform: translateY(8px); opacity: 0; transition: all 400ms ease; }
+.fade-up.visible { transform: translateY(0); opacity: 1; }

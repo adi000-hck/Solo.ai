@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#061021" />
+      <stop offset="100%" stop-color="#071227" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g3)" />
+  <g fill="#00E5FF" opacity="0.08">
+    <circle cx="300" cy="300" r="180" />
+    <circle cx="900" cy="220" r="120" />
+  </g>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" fill="#9aa6b2" font-family="Inter, Arial, sans-serif" font-size="30">SaaS Dashboard Placeholder</text>
+</svg>
